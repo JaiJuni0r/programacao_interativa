@@ -7,10 +7,10 @@
 
 //Por favor, coloque a primeira letra como maiuscula!
 
-let prato = "Pipoca"
+let prato = "Macarrão"
 
 //Por favor, defina o tempo de forno em:
-var tempo = 15
+var tempo = 22
 
 
 switch (prato) {
@@ -69,10 +69,10 @@ switch (prato) {
             console.log("Porém, o tempo insuficiente!")
         } 
         else if(tempo >= 12 && tempo <= 23){
-            console.log("Porém, seu prato queimou!")
+            console.log("Seu prato está pronto!")
         } 
         else if(tempo >=24 && tempo <= 35){
-            console.log("Seu prato queimou!")
+            console.log("Porém, seu prato queimou!")
         } 
         else (tempo >=36)
             console.log("KABUUUM!!!")
@@ -85,10 +85,10 @@ switch (prato) {
             console.log("Tempo insuficiente")
         } 
         else if(tempo >= 8 && tempo <= 15){
-            console.log("Porém, seu prato queimou!")
+            console.log("Seu prato está pronto!")
         } 
         else if(tempo >=16 && tempo <= 23){
-            console.log("Seu prato queimou!")
+            console.log("Porém, seu prato queimou!")
         } 
         else (tempo >=24)
             console.log("KABUUUM!!!")
