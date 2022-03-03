@@ -10,7 +10,7 @@
 let prato = "Macarrão"
 
 //Por favor, defina o tempo de forno em:
-var tempo = 22
+var tempo = 28
 
 
 switch (prato) {
@@ -27,7 +27,7 @@ switch (prato) {
         else if(tempo >=20 && tempo <= 29){
             console.log("Seu prato queimou!")
         } 
-        else (tempo >= 30)
+        else if (tempo >= 30)
             console.log("KABUUUM!!!")
 
         break;
@@ -44,7 +44,7 @@ switch (prato) {
         else if(tempo >=16 && tempo <= 23){
             console.log("Porém, seu prato queimou!")
         } 
-        else (tempo >=24)
+        else if(tempo >=24)
             console.log("KABUUUM!!!")
         break;
     //Carne
@@ -59,7 +59,7 @@ switch (prato) {
             else if(tempo >=30 && tempo <= 44){
                 console.log("Porém, seu prato queimou!")
             } 
-            else (tempo >=45)
+            else if(tempo >=45)
                 console.log("KABUUUM!!!")
             break;
     //Feijão
@@ -74,7 +74,7 @@ switch (prato) {
         else if(tempo >=24 && tempo <= 35){
             console.log("Porém, seu prato queimou!")
         } 
-        else (tempo >=36)
+        else if(tempo >=36)
             console.log("KABUUUM!!!")
         break;
     
@@ -90,7 +90,7 @@ switch (prato) {
         else if(tempo >=16 && tempo <= 23){
             console.log("Porém, seu prato queimou!")
         } 
-        else (tempo >=24)
+        else if(tempo >=24)
             console.log("KABUUUM!!!")
         break;
 
