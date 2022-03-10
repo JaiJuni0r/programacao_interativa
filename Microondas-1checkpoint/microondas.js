@@ -5,12 +5,17 @@
 //       5 - Brigadeiro – 8 segundos (padrão);
 
 
-//Por favor, coloque a primeira letra como maiuscula!
+/*
 
-let prato = "Macarrão"
+----------------ATENÇÃO-----------------
 
-//Por favor, defina o tempo de forno em:
-var tempo = 28
+Por favor, coloque a primeira letra como 
+maiuscula e entre as aspas!                 */
+
+let prato = "Carne"
+
+//Por favor, defina o tempo de forno em segundos:
+let tempo = 28
 
 
 switch (prato) {
@@ -18,6 +23,7 @@ switch (prato) {
     //Pipoca
     case "Pipoca":
         console.log("Sua escolha foi: Pipoca")
+
         if(tempo <=9){
             console.log("Porém, o tempo insuficiente!")
         } 
@@ -35,6 +41,7 @@ switch (prato) {
     //Macarrão
     case "Macarrão":
         console.log("Sua escolha foi: Macarrão")
+
         if(tempo <=7){
             console.log("Porém, o tempo insuficiente!")
         } 
@@ -47,9 +54,11 @@ switch (prato) {
         else if(tempo >=24)
             console.log("KABUUUM!!!")
         break;
+
     //Carne
     case "Carne":
             console.log("Sua escolha foi: Carne")
+
             if(tempo <=14){
                 console.log("Porém, o tempo insuficiente!")
             } 
@@ -62,9 +71,11 @@ switch (prato) {
             else if(tempo >=45)
                 console.log("KABUUUM!!!")
             break;
+            
     //Feijão
     case "Feijão":
         console.log("Sua escolha foi: Feijão")
+
         if(tempo <=11){
             console.log("Porém, o tempo insuficiente!")
         } 
@@ -81,6 +92,7 @@ switch (prato) {
     //Brigadeiro
     case "Brigadeiro":
         console.log("Sua escolha foi: Brigadeiro")
+        
         if(tempo <=7){
             console.log("Tempo insuficiente")
         } 
@@ -94,10 +106,11 @@ switch (prato) {
             console.log("KABUUUM!!!")
         break;
 
+
+    
     //Prato inexistente
     default:
         console.log("Prato inexistente.")    
 }
-
 
 console.log("Prato pronto, tenha um bom apetite!")
