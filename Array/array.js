@@ -84,6 +84,3 @@ console.log("Seus produtos foram exibidos!");
 let cores = ["Azul", "Branco", "Vermelhor", "Verde"];
 console.log(cores.join());
 console.log(cores.join(" * "));
-
-//--------------------ATIVIDADE-----------------------------------------------
-
